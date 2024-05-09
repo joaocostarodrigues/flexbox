@@ -1,0 +1,54 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.flexbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+  font-size: 40px;
+}
+
+.foto img{
+  position: inherit;
+  display: flex;
+  align-items: center;
+  height: 500px;
+  border-radius: 30px;
+  box-shadow: 20px;
+}
+
+.vermelho{
+  background-color: rgb(255, 0, 0);
+  color: aliceblue;
+}
+.azul{
+  background-color: rgb(58, 58, 255);
+  color: aliceblue;
+}
+.amarelo{
+  background-color: gold;
+  color: black;
+}
+
+@media screen and (max-width:600px){
+  .flexbox{
+    flex-direction: column;
+    gap: 30px
+  }
+  .figueira{
+    background-color: rgb(30, 255, 0);
+    color: black;
+  }
+  .bvai{
+    background-color:rgb(255, 251, 0);
+    color:rgb(58, 58, 255);
+  }
+  .ciuma{
+    background-color:black;
+    color:  gold;
+  }
+}
